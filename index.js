@@ -12,9 +12,9 @@ function scrollGallery(direction) {
       const mapContainer = document.getElementById('mapContainer');
       mapVisible = !mapVisible;
       mapContainer.style.display = mapVisible ? 'block' : 'none';}
-      // Toggle popup visibility
+     
 
-// Fonction pour ouvrir ou fermer le popup
+
 function togglePopup(isVisible) {
   const popup = document.getElementById('login-popup');
   if (isVisible) {
